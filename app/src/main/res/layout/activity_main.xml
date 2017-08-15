@@ -47,7 +47,19 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="6dp"
-        android:text="LOGIN" />
+        android:text="LOGIN"/>
+        <!-- chamar metodo onClickLoginXmlEventos para tratar evento -->
+        <!--android:onClick="onClickLoginXmlEventos"/>-->
+
+    <Button
+        android:id="@+id/btEsqueciSenha"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dp"
+        android:text="Esqueci senha"/>
+    <!-- chamar metodo onClickLoginXmlEventos para tratar evento -->
+    <!--android:onClick="onClickEsqueciSenhaXmlEventos"/>-->
 
 </LinearLayout>
 
